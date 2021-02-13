@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+body{
+    font-family: 'Courgette', cursive;
+    background-color: rgb(191, 191, 243);
+}
+#navbar{
+    background-image: url("https://bit.ly/39OarQ4");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 300px;
+    font-size: 50px;
+  
+}
+#navbar li {
+    float: left;
+  }
+  
+  #navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    transition: opacity .125s linear;
+  }
+  #navbar li a:hover{
+    opacity: 0.5;
+     background-color: grey;
+     cursor: pointer;
+     transition: opacity .125s linear;
+ }
+ #about{
+    text-align: center;
+}
+#about img{
+    border: 2px solid white;
+  }
+  #projects{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
